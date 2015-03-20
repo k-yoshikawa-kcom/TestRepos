@@ -13,7 +13,7 @@ namespace Training001.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View("index","_Layout");
         }
 
     }
