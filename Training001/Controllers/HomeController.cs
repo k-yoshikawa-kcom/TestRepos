@@ -13,7 +13,9 @@ namespace Training001.Controllers
 
         public ActionResult Index()
         {
+            //Start bugfix001
             ViewBag.Title = "ホーム画面";
+            //End   bugfix001
             return View();
         }
 
